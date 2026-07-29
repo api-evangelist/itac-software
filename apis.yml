@@ -1,8 +1,24 @@
 aid: itac-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/itac-software.png
 name: iTAC Software
-description: 'iTAC Software is a company surfaced as a portfolio company of sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'iTAC Software AG is an independent company of the Duerr Group and a leading provider of
+  Manufacturing Execution System (MES) and Manufacturing Operations Management (MOM) software for discrete
+  manufacturing. Its iTAC.MOM.Suite delivers production control, end-to-end traceability, quality management,
+  and AI-supported analytics that help automotive, electronics, and medical-technology manufacturers
+  implement Industry 4.0 and smart-factory operations. iTAC does not publish a public developer API,
+  developer portal, or SDKs; system integration is delivered through the MOM platform''s IoT and connectivity
+  layers as part of a project engagement.'
 url: https://raw.githubusercontent.com/api-evangelist/itac-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Saas
+- Manufacturing
+- MES
+- MOM
+- Industry 4.0
+- Smart Factory
+- IoT
+- Automotive
+- Electronics
+- Traceability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/itac-software-domain-security.yml
 - type: Website
   url: https://www.itacsoftware.com/
+- type: Blog
+  url: https://www.itacsoftware.com/en/media/blog
+- type: PrivacyPolicy
+  url: https://www.durr.com/en/data-protection
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
